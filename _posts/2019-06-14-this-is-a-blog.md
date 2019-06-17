@@ -13,3 +13,12 @@ shouldComponentUpdate(nextProps) {
 }  
 ...
 ```
+
+```
+class MyComponent extends React.Component {
+  shouldComponentUpdate(nextProps, nextState) {
+    return !shallowEqual(this.props, nextProps) || !shallowEqual(this.state, nextState);
+  }
+  ...
+}
+```
