@@ -6,5 +6,5 @@ title: this is a blog
 hello world
 
 ```
-...// inside ChildComponentshouldComponentUpdate(nextProps) {  return this.props.message !== nextProps.message;}...
+...  // inside ChildComponent  shouldComponentUpdate(nextProps) {    return this.props.message !== nextProps.message;  }  ...
 ```
