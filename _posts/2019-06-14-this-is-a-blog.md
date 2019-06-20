@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: blog
+tags: 'test, hello, blog'
 title: this is a blog
 ---
 hello world
